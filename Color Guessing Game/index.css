@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+    
+}
+
+.container{
+    
+    height: 90vh;
+    width: 30vw;
+    margin: 20px auto;
+    margin-top: 80px;
+}
+
+header {
+    font-size: 1.1rem;
+    text-align: center;
+}
+.hy{
+    color: white;
+}
+
+.by{
+    color: white;
+}
+
+
+.color-display{
+
+    height: 5vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 19px;
+}
+
+
+.message{
+   
+    color: white;
+    text-align: center;
+}
+
+.streak-section{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+.streak-box{
+    height: 12vh;
+    width: 8vw;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.streak-box h3{
+    font-size: small;
+}
+
+.streak-box div{
+    font-size: large;
+    font-weight: 900;
+    color: aqua;
+    
+}
+.controls{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+
+.control-btn{
+    background-color: aqua;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#easyBtn{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.mode-btn{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+}
+.color-box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin: 50px;
+    
+   
+}
+.color-box{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.color-box:hover{
+    transform: scale(1.1);
+    
+}
+
+.shake{
+    animation: shake 0.3s ease;
+    
+}
