@@ -1,129 +1,103 @@
-# 🎯 Whack-A-Mole Game
+# 🐭 Whack-a-Mole
 
-> A fun and interactive browser-based game where players test their reflexes by clicking (whacking) moles as they appear randomly.
-
----
-
-## 🚀 Live Demo
-🔗 Add your deployed link here (Vercel / Netlify / GitHub Pages)
+A fun, browser-based Whack-a-Mole game built with vanilla HTML, CSS, and JavaScript. Moles pop up from random holes — click them before they disappear to score points!
 
 ---
 
-## 📌 Overview
+## 🎮 Demo
 
-**Whack-A-Mole** is a classic arcade-style game where moles pop up randomly, and the player must click them quickly to score points.
-
-This project demonstrates:
-- ⚡ Real-time DOM updates  
-- 🎯 Event handling  
-- 🎮 Game logic implementation  
-- ⏱️ Timer-based gameplay  
-
-The game challenges the user’s **speed and accuracy**, making it both fun and engaging.
+> Open `index.html` in your browser to play instantly — no installation required.
 
 ---
 
-## 🎮 How to Play
+## 🕹️ How to Play
 
-- 🟢 Click **Start Game**  
-- 🐹 Moles will appear randomly  
-- 🖱️ Click on the mole to score points  
-- ⏱️ Game runs for a limited time  
-- 🏁 Final score is displayed at the end  
+1. Click **Start** to begin the game.
+2. Moles will randomly pop up from the holes.
+3. **Click on a mole** as fast as you can to score a point.
+4. The game ends when the timer runs out.
+5. Try to beat your high score!
+
+---
+
+## 📁 Project Structure
+
+```
+whack-a-mole/
+├── index.html      # Game markup and structure
+├── style.css       # Styling and animations
+└── script.js       # Game logic (mole timing, scoring, etc.)
+```
+
+---
+
+## 🚀 Getting Started
+
+### Play Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/vedantxy/game-sub.git
+   ```
+
+2. **Navigate to the game folder:**
+   ```bash
+   cd game-sub/whack-a-mole
+   ```
+
+3. **Open in your browser:**
+   ```bash
+   open index.html
+   # or just double-click index.html in your file explorer
+   ```
+
+No dependencies, no build step — it runs straight in the browser.
 
 ---
 
 ## ✨ Features
 
-- 🎯 Random mole generation  
-- ⏱️ Countdown timer  
-- 🏆 Score tracking system  
-- ⚡ Fast and responsive gameplay  
-- 🎮 Arcade-style experience  
-- 📱 Responsive design  
+- 🎯 Randomized mole appearances for unpredictable gameplay
+- ⏱️ Countdown timer to keep the pressure on
+- 🏆 Live score tracker
+- 🚫 Cheat-proof: only genuine clicks are counted (no keyboard tricks)
+- 📱 Playable on desktop and mobile browsers
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Built With
 
-- **Frontend:** HTML5, CSS3, JavaScript  
-- **Logic:** DOM manipulation & event listeners  
-- **Styling:** CSS / Tailwind (if used)  
-
----
-
-## 📂 Project Structure
-whack-a-mole/
-├── assets/
-│ ├── images/
-│ └── sounds/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
+| Technology | Purpose |
+|------------|---------|
+| HTML5      | Game layout and structure |
+| CSS3       | Styling, animations, and transitions |
+| JavaScript | Game logic, timers, and interactivity |
 
 ---
 
-## ⚙️ Installation & Setup
+## 🤝 Contributing
 
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/vedantxy/game-sub.git
-2️⃣ Navigate to Project
-cd game-sub/whack-a-mole
-3️⃣ Run the Project
+Contributions are welcome! Feel free to open an issue or submit a pull request for bug fixes, new features, or improvements.
 
-Open index.html in your browser
-OR use Live Server
+1. Fork the repo
+2. Create your feature branch: `git checkout -b feature/your-feature`
+3. Commit your changes: `git commit -m 'Add your feature'`
+4. Push to the branch: `git push origin feature/your-feature`
+5. Open a Pull Request
 
-🧠 Core Game Logic
-Moles appear at random positions
-Timer controls game duration (e.g., 30 seconds)
-Each successful click:
-✅ Increases score
-❌ Missed clicks don’t count
-Game ends when timer reaches zero
-💻 Example Logic Snippet
-let score = 0;
+---
 
-function whack() {
-  score++;
-  scoreDisplay.textContent = score;
-}
+## 📄 License
 
-mole.addEventListener("click", whack);
-📸 Preview
-<img src="./assets/preview.png" alt="Whack-a-Mole Preview" width="600"/>
-🚀 Future Enhancements
-🔊 Sound effects on hit/miss
-🏆 High score leaderboard
-🎚️ Difficulty levels (Easy / Medium / Hard)
-🎨 Animations (Framer Motion / CSS transitions)
-🌙 Dark mode
-📊 Score analytics
-🤝 Contributing
+This project is open source and available under the [MIT License](../LICENSE).
 
-Contributions are welcome!
+---
 
-# Fork the repo
-# Create new branch
-git checkout -b feature-name
+## 👤 Author
 
-# Commit changes
-git commit -m "Added new feature"
+**vedantxy**  
+GitHub: [@vedantxy](https://github.com/vedantxy)
 
-# Push
-git push origin feature-name
+---
 
-Then open a Pull Request 🚀
-
-📧 Contact
-
-Vedant Patel
-
-GitHub: https://github.com/vedantxy
-Portfolio: Add your portfolio link
-📜 License
-
-This project is licensed under the MIT License.
+> Part of the [game-sub](https://github.com/vedantxy/game-sub) collection — a set of mini browser games.🖕🏻🖕🏻🖕🏻
